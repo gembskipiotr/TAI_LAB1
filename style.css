@@ -3,8 +3,19 @@ body {
 }
 li {
     display: inline;
+    padding: 5px;
 }
+
 .myForm{
-    width:  70%;
-    margin: auto
+    width: 70%;
+
+    margin: auto;
+}
+
+.sidebar{
+    background-color: brown;
+}
+
+.sidebarItem{
+    display: block;
 }
