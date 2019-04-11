@@ -1,9 +1,11 @@
-let nav = '<ul class="nav justify-content-center">' +
-    '<li class="nav-item"><a href="index.html">Home</a></li>' +
-    '<li class="nav-item"><a href="#">Blog</a></li>' +
-    '<li class="nav-item"><a href="#">Quiz</a></li>'+
-    '<li class="nav-item"><a href="contact.html">Kontakt</a></li>'+
-'</ul>';
+let nav =
+'<nav>'+
+    '<ul class="nav">'+
+        '<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>'+
+        '<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>'+
+        '<li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>'+
+        '<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>'+
+    '</ul>'+
+'</nav>';
 
-let elem = document.querySelector('.navbar');
-elem.innerHTML = nav;
+document.getElementById('navbar').innerHTML = nav;
