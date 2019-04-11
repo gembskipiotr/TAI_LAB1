@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(49, 190, 136);
+    background-color: rgb(238, 157, 8);
 }
 li {
     display: inline;
 }
 .myForm{
     width:  70%;
-    margin: auto;
+    margin: auto
 }
