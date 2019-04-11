@@ -4,3 +4,7 @@ body {
 li {
     display: inline;
 }
+.myForm{
+    width:  70%;
+    margin: auto;
+}
